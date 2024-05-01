@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Chicago Bulls new era Snapback",
+        "price": 1800.00,
+        "image": "assets/1.png"
+    },
+    {
+        "id": 2,
+        "name": "Toronto Blue Jays 2x World Series Champions New Era",
+        "price": 2199.00,
+        "image": "assets/2.png"
+    },
+    {
+        "id": 3,
+        "name": "Arizona Diamondbacks New Era World Series Champions",
+        "price": 1999.00,
+        "image": "assets/3.png"
+    },
+    {
+        "id": 4,
+        "name": "Mitchell & Ness 20th Anniversary Mighty Ducks",
+        "price": 2000.00,
+        "image": "assets/4.png"
+    },
+    {
+        "id": 5,
+        "name": "Yankees New era MLB orange Snapback",
+        "price": 1800.00,
+        "image": "assets/5.png"
+    },
+    {
+        "id": 6,
+        "name": "Raiders New era Snapback purple",
+        "price": 2050.00,
+        "image": "assets/6.png"
+    },
+    {
+        "id": 7,
+        "name": "Yankees New era Snapback sail",
+        "price": 1999.00,
+        "image": "assets/7.png"
+    },
+    {
+        "id": 8,
+        "name": "Los angeles dodgers New era Snapback",
+        "price": 2199.00,
+        "image": "assets/8.png"
+    }
+]

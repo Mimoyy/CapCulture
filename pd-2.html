@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>capculture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="assets/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="assets/bx-cart-alt.svg" width="30px" height="30px">
+            <img src="assets/menu-regular-24.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+   <!----------------single product details---------->
+
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="assets/1.png" width="100%" id="ProductImg">
+
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="assets/1.png" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="assets/pd-img.png" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="assets/pd-img.png" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="assets/pd-img.png" width="100%" class="small-img">
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div class="col-2">
+                    <p>home / cap</p>
+                    <h1>Chicago Bulls new era Snapback</h1>
+                    <h4>1,800.00</h4>
+                    <select>
+                        <option>Select Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>L</option>
+                        <option>M</option>
+                        <option>S</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add to Cart</a>
+
+                    <h3>Product Details</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur 
+                        fuga odit doloribus necessitatibus dicta deserunt vero dolores amet culpa, 
+                        repellat voluptate animi tempora placeat, corporis asperiores magnam corrupti 
+                        recusandae!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-----------title-->
+        <div class="small-container">
+            <div class="row row-2" >
+                <h2>Related Products</h2>
+                <p>View More</p>
+
+            </div>
+        </div>
+
+
+    <!-----products----->
+            <div class="small-container">
+                
+                <div class="row row-2">
+                    <div class="col-4">
+                        <img src="assets/caps/chicago_bulls_fitted_hat-removebg-preview.png">
+                        <h4>Chicago Bulls new era Snapback</h4>
+                        <div class="rating">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <p>1,800.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/caps/category-3.png">
+                        <h4>Toronto Blue Jays 2x World Series Champions New Era</h4>
+                        <div class="rating">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-line"></i>
+                        </div>
+                        <p>2,199.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/caps/category-1-removebg-preview.png">
+                        <h4>Arizona Diamondbacks New Era World Series Champions </h4>
+                        <div class="rating">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i>
+                        </div>
+                        <p>1,999.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/caps/category-2-removebg-preview.png">
+                        <h4>Mitchell & Ness 20th Anniversary Mighty Ducks</h4>
+                        <div class="rating">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-line"></i>
+                            <i class="ri-star-line"></i>
+                        </div>
+                        <p>2,000.00</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+
+       <!---footer-->
+
+       <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and Ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="assets/playstore.png">
+                        <img src="assets/appstore.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="assets/logo.png">
+                    <p>Our Purpose is to sustainably Make the pleasure and 
+                        Benefits of Streetwear to the many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <!-------js for toggle menu----->
+       <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px" ;  
+                }
+        }
+       </script>
+
+       <!----------js for prodcut gallery---->
+
+       <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+
+        SmallImg[0].onclick = function()
+        {
+            ProductImg.src= SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function()
+        {
+            ProductImg.src= SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function()
+        {
+            ProductImg.src= SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function()
+        {
+            ProductImg.src= SmallImg[3].src;
+        }
+        
+
+       </script>
+
+</body>
+</html>
